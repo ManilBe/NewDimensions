@@ -9,12 +9,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "snowy_biome"
+    },
+    {
+      "name": "SnowyForest",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowy_forest"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.newdims.snowy_forest": "Snowy Staff",
       "biome.newdims.snowy_biome": "Snowy Biome"
     }
   },

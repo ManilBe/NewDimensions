@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "newdims:block/snowy_forest_portal_ew"
+    },
+    "axis=x": {
+      "model": "newdims:block/snowy_forest_portal_ns"
+    }
+  }
+}
