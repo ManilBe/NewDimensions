@@ -1,10 +1,22 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SnowyBiome",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowy_biome"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.newdims.snowy_biome": "Snowy Biome"
+    }
   },
   "workspaceSettings": {
     "modid": "newdims",
