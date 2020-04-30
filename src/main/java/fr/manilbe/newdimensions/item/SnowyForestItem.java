@@ -18,7 +18,7 @@ public class SnowyForestItem extends Item {
 	@ObjectHolder("newdims:snowy_forest")
 	public static final Item block = null;
 	public SnowyForestItem() {
-		super(new Item.Properties().group(ItemGroup.MISC).maxDamage(64));
+		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
 	}
 
 	@Override

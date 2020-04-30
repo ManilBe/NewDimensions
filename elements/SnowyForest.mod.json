@@ -14,14 +14,14 @@
     },
     "igniterName": "Snowy Staff",
     "igniterTab": {
-      "value": "MISC"
+      "value": "TOOLS"
     },
     "texture": "snowy_staff",
     "portalTexture": "snowy_portalframe",
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "CUSTOM:SnowyBiome"
+        "value": "snowy_mountains"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -29,7 +29,7 @@
       "value": "Blocks.DIRT#0"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "Blocks.ICE"
     },
     "airColor": {
       "value": -4138753,

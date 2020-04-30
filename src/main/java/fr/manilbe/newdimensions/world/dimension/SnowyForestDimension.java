@@ -121,7 +121,7 @@ public class SnowyForestDimension extends NewDimsElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("newdims:snowy_biome")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("snowy_mountains")),};
 	}
 
 	@Override
@@ -713,7 +713,7 @@ public class SnowyForestDimension extends NewDimsElements.ModElement {
 				}
 
 				public BlockState getDefaultFluid() {
-					return Blocks.WATER.getDefaultState();
+					return Blocks.ICE.getDefaultState();
 				}
 			});
 			this.randomSeed.skip(5349);
